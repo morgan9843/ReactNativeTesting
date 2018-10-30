@@ -1,2 +1,0 @@
-# ReactNativeTesting
-Alex SP MTHS

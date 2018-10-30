@@ -1,12 +1,16 @@
 {
   "expo": {
-   "name": "Mushroom Identifier",
-   "icon": "./assets/icon.png",
-   "version": "0.0.1",
-   "slug": "SPMTHS",
-   "sdkVersion": "30.0.0",
-   "android": {
-     "package": "com.morgankintz.mushroomidentify"
+    "name": "Mushroom Identifier",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#FEFACB"
+    },
+    "icon": "./assets/icon.png",
+    "version": "0.0.2",
+    "slug": "SPMTHS",
+    "sdkVersion": "30.0.0",
+    "android": {
+      "package": "com.morgankintz.mushroomidentify"
    }
   }
 }

@@ -19,11 +19,6 @@ export default class App extends React.Component {
               <Text style={styles.buttonText}>Ready?</Text>
             </View>
           </TouchableWithoutFeedback>
-          <TouchableWithoutFeedback
-            onPress={this._onPressButton}>
-            <View style={styles.mushroomStalk}>
-            </View>
-          </TouchableWithoutFeedback>
         </View>
       </View>
 
@@ -50,13 +45,6 @@ const styles = StyleSheet.create({
   buttonText: {
     padding: 10,
     color: "#FEFACB",
-  },
-  mushroomStalk: {
-    backgroundColor: "#EBD489",
-    width: 25,
-    height: 50,
-    alignSelf: 'center',
-    borderBottomEndRadius: 10,
   },
   textMain: {
     fontSize: 32,
