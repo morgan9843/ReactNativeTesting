@@ -1,17 +1,15 @@
-import React from 'react';
-import { TouchableWithoutFeedback, StyleSheet, Button, Alert, Text, View } from 'react-native';
+import React from 'react'
+import { TouchableWithoutFeedback, StyleSheet, Button, Alert, Text, View } from 'react-native'
 
 export default class App extends React.Component {
-  _onPressButton() {
+  _onPressButton () {
     Alert.alert('You Better Be!')
   }
-  
-  render() {
+
+  render () {
     return (
-
       <View style={styles.container}>
-          <Text style={styles.textMain}>Mushroom Identifier</Text>
-
+        <Text style={styles.textMain}>Mushroom Identifier</Text>
         <View style={styles.buttonContainer}>
           <TouchableWithoutFeedback
             onPress={this._onPressButton}>
@@ -21,9 +19,7 @@ export default class App extends React.Component {
           </TouchableWithoutFeedback>
         </View>
       </View>
-
-
-    );
+    )
   }
 }
 
@@ -32,22 +28,22 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FEFACB',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   button: {
     marginTop: 20,
     alignSelf: 'center',
     width: 100,
     alignItems: 'center',
-    backgroundColor: "#CC1516",
-    borderRadius: 10,
+    backgroundColor: '#CC1516',
+    borderRadius: 10
   },
   buttonText: {
     padding: 10,
-    color: "#FEFACB",
+    color: '#FEFACB'
   },
   textMain: {
     fontSize: 32,
-    color: "#CC1516",
+    color: '#CC1516'
   }
-});
+})
