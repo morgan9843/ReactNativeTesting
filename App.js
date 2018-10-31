@@ -1,5 +1,6 @@
 import React from 'react'
-import { TouchableWithoutFeedback, StyleSheet, Button, Alert, Text, View } from 'react-native'
+import { TouchableWithoutFeedback, Alert, Text, View } from 'react-native'
+import styles from './styles/styles'
 
 export default class App extends React.Component {
   _onPressButton () {
@@ -22,28 +23,3 @@ export default class App extends React.Component {
     )
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#FEFACB',
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  button: {
-    marginTop: 20,
-    alignSelf: 'center',
-    width: 100,
-    alignItems: 'center',
-    backgroundColor: '#CC1516',
-    borderRadius: 10
-  },
-  buttonText: {
-    padding: 10,
-    color: '#FEFACB'
-  },
-  textMain: {
-    fontSize: 32,
-    color: '#CC1516'
-  }
-})
